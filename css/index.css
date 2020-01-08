@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+head {
+  display: none;
+}
+html {
+  max-width: 100%;
+  background-color: #F2EBEB;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h1 {
+  display: none;
+}
+p {
+  font-size: 1.3rem;
+  line-height: 1.6em;
+}
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+nav {
+  max-width: 100%;
+  padding: 10% 0;
+  background-color: #a6e0b4;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+.logo_cont {
+  width: 35%;
+  background: url(../assets/logo.svg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  margin-left: 8%;
+}
+.links_cont {
+  width: 35%;
+  margin-right: 5%;
+}
+.button_nav {
+  background-color: #5BA9B1;
+  display: block;
+  cursor: pointer;
+  color: #F2EBEB;
+  font-size: 1.5rem;
+  padding: 15% 30%;
+  text-decoration: none;
+  border-radius: 15px;
+  width: 20%;
+  box-shadow: 0px 10px 0px #A0CDD2;
+  text-shadow: -1px -1px 0px #A0CDD2;
+}
+footer {
+  background-color: #a6e0b4;
+  padding: 8% 0;
+  margin-top: 10%;
+}
+.copyright_cont {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  width: 40%;
+  background-color: #F2EBEB;
+  box-shadow: 0px -3px 0 #65B879;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 1%;
+}
+.home_header {
+  margin: 0 auto;
+  margin-top: 6%;
+  background: url(../assets/thoughtBubble.svg);
+  background-repeat: no-repeat;
+  height: 500px;
+  object-fit: contain;
+}
+h2 {
+  margin-bottom: 4%;
+}
+.action_cont {
+  max-width: 65%;
+  padding: 2% 1%;
+  background-color: #F2EBEB;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 16%;
+  left: 16%;
+  box-shadow: -2px -3px #5BA9B1;
+}
+.button_action {
+  display: block;
+  width: 80px;
+  height: 25px;
+  background-color: #ff8080;
+  cursor: pointer;
+  color: #F2EBEB;
+  font-size: 1.6rem;
+  padding: 10% 15%;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 4% auto;
+  box-shadow: 0px 15px 0px #a32222;
+  text-shadow: -1px -1px 0px #a32222;
+}
+.quote_cont {
+  background-color: #a6e0b4;
+  padding: 6%;
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+.quote {
+  background-color: #F2EBEB;
+  box-shadow: 0 -3px 0 #65B879;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4%;
+}
+.features {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4%;
+}
+.features_cont {
+  padding: 4%;
+  width: 60%;
+  border: 15px solid #A0CDD2;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.feature_1 {
+  margin-bottom: 10%;
+}
+h2 {
+  margin: 0;
+}
+.about_header {
+  border: 15px solid #A0CDD2;
+  border-radius: 20px;
+  width: 60%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  box-shadow: 0px 3px #5BA9B1;
+}
